@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:name=".LoginActivity"
+    android:gravity="center"
+    android:background="@drawable/background_booking_car"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ng_nh_p"
+        android:textColor="#08F8F1"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E342E"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="@string/m_t_kh_u"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#4E342E"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A14CAFA7"
+        android:text="Đăng Nhập"
+        android:textColor="#FFFFFF"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/qu_n_m_t_kh_u"
+        android:textColor="#FF0057" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewForgotPassword"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/ch_a_c_t_i_kho_n_ng_k_t_i_kho_n"
+        android:textColor="#03FFE7" />
+
+</RelativeLayout>

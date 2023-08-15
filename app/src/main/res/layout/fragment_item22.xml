@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent"
+    tools:context=".User.Activity.Fragment.Seat.Item22Fragment">
+<ImageView
+    android:id="@+id/buttonEntrance"
+    android:layout_width="35dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="25dp"
+    android:background="@drawable/doors" />
+<ImageView
+    android:id="@+id/buttonEntrance2"
+    android:layout_width="35dp"
+    android:layout_height="30dp"
+    android:layout_below="@+id/buttonEntrance"
+    android:background="@drawable/steering" />
+
+<!-- 1 -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@id/buttonEntrance"
+    android:orientation="vertical"
+    android:id="@+id/tang1"
+    android:layout_marginBottom="20dp">
+
+    <!-- Hàng ngang 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Button Ghế A1 -->
+        <Button
+            android:id="@+id/buttonA1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A1" />
+
+        <!-- Button Ghế A2 -->
+        <Button
+            android:id="@+id/buttonA2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A2" />
+
+        <!-- Button Ghế A3 -->
+        <Button
+            android:id="@+id/buttonA3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A3" />
+
+        <!-- Button Ghế A4 -->
+        <Button
+            android:id="@+id/buttonA4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A4" />
+
+        <!-- Button Ghế A5 -->
+        <Button
+            android:id="@+id/buttonA5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A5" />
+    </LinearLayout>
+
+    <!-- Hàng ngang 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Button Ghế A6 -->
+        <Button
+            android:id="@+id/buttonA6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A6" />
+
+        <!-- Button Ghế A7 -->
+        <Button
+            android:id="@+id/buttonA7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A7" />
+
+        <!-- Button Ghế A8 -->
+        <Button
+            android:id="@+id/buttonA8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A8" />
+
+        <!-- Button Ghế A9 -->
+        <Button
+            android:id="@+id/buttonA9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A9" />
+
+        <!-- Button Ghế A10 -->
+        <Button
+            android:id="@+id/buttonA10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A10"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+<!-- 2 -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tang2"
+    android:layout_below="@+id/tang1">
+
+    <!-- Button Ghế B1 -->
+    <Button
+        android:id="@+id/buttonB1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B1" />
+
+    <!-- Button Ghế B2 -->
+    <Button
+        android:id="@+id/buttonB2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B2" />
+
+    <!-- Button Ghế B3 -->
+    <Button
+        android:id="@+id/buttonB3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B3" />
+
+    <!-- Button Ghế B4 -->
+    <Button
+        android:id="@+id/buttonB4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B4" />
+
+    <!-- Button Ghế B5 -->
+    <Button
+        android:id="@+id/buttonB5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B5" />
+    <!-- Button Ghế B6 -->
+    <Button
+        android:id="@+id/buttonB6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B6" />
+</LinearLayout>
+
+<!-- Hàng ngang 2 -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tang22"
+    android:layout_below="@+id/tang2">
+    <!-- Button Ghế B7 -->
+    <Button
+        android:id="@+id/buttonB7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B7" />
+
+    <!-- Button Ghế B8 -->
+    <Button
+        android:id="@+id/buttonB8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B8" />
+
+    <!-- Button Ghế B9 -->
+    <Button
+        android:id="@+id/buttonB9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B9" />
+
+    <!-- Button Ghế B10 -->
+    <Button
+        android:id="@+id/buttonB10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="-8dp"
+        android:text="B 10"
+        android:textSize="13dp"
+        tools:ignore="TextSizeCheck" />
+    <!-- Button Ghế B11 -->
+    <Button
+        android:id="@+id/buttonB11"
+        android:layout_width="0dp"
+        android:layout_marginTop="-8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="B 11"
+        android:textSize="13dp"
+        tools:ignore="TextSizeCheck" />
+    <!-- Button Ghế B12 -->
+    <Button
+        android:id="@+id/buttonB12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="-8dp"
+        android:text="B 12"
+        android:textSize="13dp"
+        tools:ignore="TextSizeCheck" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tang22"
+    android:layout_marginTop="50dp">
+
+    <!-- Button Ghế B1 -->
+    <Button
+        android:id="@+id/buttonBuy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mua Vé"
+        android:backgroundTint="#628E2F"/>
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

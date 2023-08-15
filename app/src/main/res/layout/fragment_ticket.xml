@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".User.Activity.Fragment.Ticket.TicketFragment">
+
+    <!-- Thêm fragmentContainer vào layout -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/SearchView"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vé Đã Đặt"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <SearchView
+        android:id="@+id/SearchView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="12dp"
+        android:queryHint="Search...">
+    </SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/SearchView"
+        android:layout_marginTop="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">BookingCar</string>
+    <string name="ng_nh_p">Đăng Nhập</string>
+    <string name="email">Email</string>
+    <string name="m_t_kh_u">Mật khẩu</string>
+    <string name="qu_n_m_t_kh_u">Quên mật khẩu?</string>
+    <string name="ch_a_c_t_i_kho_n_ng_k_t_i_kho_n">Chưa có tài khoản? Đăng ký tài khoản.</string>
+    <string name="ng_k">Đăng Ký</string>
+    <string name="h_v_t_n">Họ và Tên</string>
+    <string name="c_t_i_kho_n_ng_nh_p">Đã có tài khoản? Đăng nhập.</string>
+    <string name="s_i_n_tho_i">Số điện thoại</string>
+    <string name="kh_i_ph_c_m_t_kh_u">Khôi Phục Mật Khẩu</string>
+    <string name="quay_l_i_ng_nh_p">Quay lại đăng nhập.</string>
+    <string name="todo">TODO</string>
+    <string name="t_n_xe">Tên Xe</string>
+    <string name="a_ch">Địa Chỉ</string>
+    <string name="gi_ti_n">Giá Tiền</string>
+    <string name="go_go_car">Go Go Car</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="h_t_n">Họ tên</string>
+    <string name="admin">Admin</string>
+    <string name="button">Button</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="trang_ch">Trang Chủ</string>
+    <string name="ph_ng_1">Phòng 1</string>
+    <string name="ph_ng_11">Phòng 11</string>
+
+    <string-array name="seat_numbers">
+        <item>22</item>
+        <item>34</item>
+    </string-array>
+    <string-array name="roles">
+        <item>admin</item>
+        <item>user</item>
+    </string-array>
+    <string name="title_activity_history">History</string>
+</resources>

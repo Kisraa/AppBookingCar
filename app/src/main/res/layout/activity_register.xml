@@ -1,0 +1,131 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:name=".RegisterActivity"
+    android:gravity="center"
+    android:background="@drawable/background_booking_car">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ng_k"
+        android:textColor="#08F8F1"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="@string/h_v_t_n"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="@string/s_i_n_tho_i"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E342E"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="Email"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#4E342E"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="Địa chỉ"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E342E"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAddress"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E342E"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#A4FBF9FC"
+        android:hint="Xác nhận mật khẩu"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#4E342E"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfirmPassword"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A14CAFA7"
+        android:text="Đăng Ký"
+        android:textColor="#FFFFFF"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/c_t_i_kho_n_ng_nh_p"
+        android:textColor="#03FFE7" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAddCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Thêm Xe"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLicensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAddCar"
+        android:hint="Biển số xe"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLicensePlate"
+        android:hint="Tên lái xe"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDriver"
+        android:hint="Tuyến xe"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRoute"
+        android:hint="Giá vé"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextDepartureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPrice"
+        android:hint="Giờ khởi hành"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextDepartureDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDepartureTime"
+        android:layout_marginTop="8dp"
+        android:hint="Ngày khởi hành"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <EditText
+        android:id="@+id/editTextEstimatedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDepartureDate"
+        android:layout_marginTop="8dp"
+        android:hint="Giờ dự kiến"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextEstimatedTime"
+        android:layout_toRightOf="@id/editTextImage"
+        android:contentDescription="TODO"
+        android:src="@drawable/camera" />
+
+    <EditText
+        android:id="@+id/editTextImage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEstimatedTime"
+        android:layout_marginTop="8dp"
+        android:hint="Đường dẫn hình ảnh"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/editTextImage"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textViewSeatType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại xe"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:textColor="#8D6E63" />
+
+        <Spinner
+            android:id="@+id/spinnerSeatNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/seat_numbers"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/textViewSeatCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chỗ."
+            android:textSize="18sp"
+            tools:textColor="#8D6E63" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E44F9E52"
+        android:text="Thêm Xe" />
+
+</RelativeLayout>

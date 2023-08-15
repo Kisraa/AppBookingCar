@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_car_layout"
+    android:background="#E1F4F4"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/a_ch"
+            android:padding="8dp"
+            android:src="@drawable/ic_pencil"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/editButton"
+            android:contentDescription="@string/a_ch"
+            android:padding="8dp"
+            android:src="@drawable/ic_delete"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_car_image"
+        />
+
+    <TextView
+        android:id="@+id/carLicensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biển số xe: ABC-XYZ"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/carDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lái xe: Nguyễn Văn A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuyến xe: Hà Nội - TP.HCM"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá: 100,000 VND"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carDepartureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ khởi hành: 08:00 AM"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carEstimatedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ dự kiến: 06:00 PM"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carDepartureDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày khởi hành: 01-01-2023"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/carSeatNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số ghế: 30"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Vé"
+        tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck"
+        android:backgroundTint="#52732B"/>
+
+</LinearLayout>

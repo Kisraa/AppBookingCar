@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Gradient background -->
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#3F51B5"
+            android:endColor="#303F9F"
+            android:angle="180" />
+        </shape>
+    </item>
+    <item>
+        <!-- Image overlay -->
+        <bitmap
+            android:src="@drawable/car_image"
+        android:gravity="center" />
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trạng thái phòng trống -->
+    <item android:state_selected="false" android:state_enabled="true" android:drawable="@drawable/room_empty" />
+    <!-- Trạng thái phòng đã chọn -->
+    <item android:state_selected="true" android:state_enabled="true" android:drawable="@drawable/room_selected" />
+    <!-- Trạng thái phòng không sử dụng -->
+    <item android:state_enabled="false" android:drawable="@drawable/room_unavailable" />
+</selector>

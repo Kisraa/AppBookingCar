@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#E1F4F4"
+    android:padding="10dp"
+    android:id="@+id/item_booking">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:text="Họ và tên: Nguyễn Văn C"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textPhoneNumber"
+        android:layout_width="match_parent"
+        android:text="Sđt: 0123456789"
+        android:layout_toEndOf="@id/textName"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="match_parent"
+        android:text="Địa chỉ: adb đường bcd, phường 54, kta"
+        android:layout_below="@id/textPhoneNumber"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textSeatNumber"
+        android:layout_width="wrap_content"
+        android:text="Vị trí ghế: A1, A6"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/textAddress"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textTotalAmount"
+        android:layout_width="match_parent"
+        android:text="Giá tiền: 300 000 VNĐ"
+        android:layout_toEndOf="@id/textSeatNumber"
+        android:layout_below="@id/textAddress"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textRoute"
+        android:layout_width="wrap_content"
+        android:text="Tuyến Xe: HCM - Vũng Tàu"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/textTotalAmount"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textLicensePlate"
+        android:layout_width="match_parent"
+        android:text="Biển số xe: 47C1 45431"
+        android:layout_toEndOf="@id/textRoute"
+        android:layout_below="@id/textTotalAmount"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textDepartureDate"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Ngày khởi hành: 10-08-2023"
+        android:layout_below="@id/textLicensePlate"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textEstimatedTime"
+        android:layout_width="match_parent"
+        android:text="Giờ khởi hành: 19:00"
+        android:layout_toEndOf="@id/textDepartureDate"
+        android:layout_below="@id/textLicensePlate"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+

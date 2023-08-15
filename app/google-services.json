@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "520440333041",
+    "project_id": "app-booking-car-c4ed3",
+    "storage_bucket": "app-booking-car-c4ed3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520440333041:android:bbe00e91d9ddcb7b449f50",
+        "android_client_info": {
+          "package_name": "com.example.app_booking_car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520440333041-jc6kkmehmg0sj46ssa5th4nk3ioo7non.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_booking_car",
+            "certificate_hash": "990fbcc7a5d55683ec0a42b0841ee4d4f402ba8f"
+          }
+        },
+        {
+          "client_id": "520440333041-q8pm4bt4ocs8vag691opnc8jgghn7ep0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhaieyteEPLsWpNRuzvv60uJH7gO78tk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520440333041-q8pm4bt4ocs8vag691opnc8jgghn7ep0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
